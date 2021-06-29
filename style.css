@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    -webkit-font-smoothing: antialiased;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+/*Header
+-----------------------------------------------------------*/
+.header{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    left: 0%;
+    z-index: 1000;
+    width: 100%;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #505269;
+    padding: 38px 0;
+    align-items: center;
+}
+
+/*Container
+-----------------------------------------------------------*/
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+
+/*Navigation
+-----------------------------------------------------------*/
+.navigation{
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.nav_link{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.75;
+    transition: 0.2s;
+    margin-left: 58px;
+}
+
+.nav_link:first-child{
+    margin-left: 0px;
+}
+
+.nav_link:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+
+/*Intro
+-----------------------------------------------------------*/
+.intro{
+    height: 750px;
+    background: #2a2e48 url("files/images/intro_bg.jpg") center no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro_title{
+    margin: 0 0 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.intro_inner{
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.intro_subtitle{
+    font-size: 22px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+
+
+/*Button
+--------------------------------------------------------*/
+
+.button{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 40px;
+    border-radius: 3px;
+    transition: background 0.2s linear;
+}
+
+.button--red{
+    background-color: #e84545;
+    margin-top: 75px;
+}
+
+.button--red:hover{
+    background-color: #e40d0d;
+}
