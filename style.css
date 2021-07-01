@@ -353,3 +353,134 @@ a{
 
 
 
+/*Download
+-----------------------------------------------------------*/
+
+
+.download{
+    height: 340px;
+}
+
+.download_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.download_ready{
+    margin-top: 95px;
+    font-size: 28px;
+    color: #000;
+    font-weight: 300;
+}
+
+.download_ready_under{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.download_button{
+    padding-top: 15px;
+    border-radius: 3px;
+    height: 46px;
+    width: 280px;
+    text-decoration: none;
+    background-color: #e84545;
+    text-transform: uppercase;
+    color: #fff;
+    transition: background 0.2s linear;
+}
+
+.download_button:hover{
+    background-color: #e40d0d;
+}
+
+
+
+
+/*Find us
+-----------------------------------------------------------*/
+
+
+.find_us{
+    background-color: #3a3e64;
+    height: 250px;
+}
+
+.find_us_inner{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 65px;
+    justify-content: space-between;
+}
+
+.find_us_item{ 
+    width: 33.33333%;
+    max-width: 370px;
+    text-align: center;
+}
+
+.find_us_item_title{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.find_us_item_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 14px;
+    color: #afb0bc;
+}
+
+.find_us_item_content_button{
+    fill: #fff;
+    height: 40px;
+    width: 40px;
+    margin-right: 4px;
+    transition: fill 0.1s linear;
+}
+
+.find_us_item_content_button:hover{
+    fill: #1877F2;
+}
+
+#find_us_item_content1{
+    padding: 0 100px;
+}
+
+
+
+/*End of site
+-----------------------------------------------------------*/
+
+.end_of_site{
+    padding-top: 25px;
+    height: 95px;
+    background-color: #313454;
+    font-size: 14px;
+}
+
+.end_of_site_inner{
+    text-align: center;
+}
+
+.all_rights_blah_blah{
+    margin-bottom: 6px;
+}
+
+#heart{
+    color: red;
+}
+
+#end_of_site_made_by{
+    color: #fff;
+}
