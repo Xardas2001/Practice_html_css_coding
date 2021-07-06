@@ -7,16 +7,17 @@ allButtons.forEach(function(item){
         let tabId = currentButton.getAttribute("data-tab");
 
         let currentTab = document.querySelector(tabId);
-
-        allButtons.forEach(function(item){
-            item.classList.remove('active');
-        });
-
-        allTabs.forEach(function(item){
-            item.classList.remove('active');
-        });
-
-        currentButton.classList.add('active');
-        currentTab.classList.add('active');
+        if(!(currentButton.classList.contains('active'))){
+            allButtons.forEach(function(item){
+                item.classList.remove('active');
+            });
+    
+            allTabs.forEach(function(item){
+                item.classList.remove('active');
+            });
+    
+            currentButton.classList.add('active');
+            currentTab.classList.add('active');
+        }
     });
 });
