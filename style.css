@@ -305,9 +305,14 @@ a{
     overflow: hidden;
 }
 
-.reviews_item{
+.reviews_item.active{
     display: flex;
     flex-wrap: wrap;
+    z-index: 1;
+}
+
+.reviews_item{
+    display: none;
 }
 
 .reviews_photo{
@@ -351,7 +356,33 @@ a{
     text-transform: uppercase;
 }
 
+.tab_buttons_block{
+    display: flex;
+    /*justify-content: flex-start;*/
+    z-index: 10;
+    
+}
 
+.tab_button{
+    height: 35px;
+    width: 40px;
+    color:#fff;
+    background-color: #53354A;
+    text-align: center;
+    padding-top: 7px;
+    transition: 0.2s linear;
+    border: 0px;
+}
+
+.tab_button:hover{
+    color: #000;
+    background-color: rgb(231, 231, 231);
+}
+
+.tab_button.active{
+    color: rgb(231, 231, 231);;
+    background-color: #000; 
+}
 
 /*Download
 -----------------------------------------------------------*/
